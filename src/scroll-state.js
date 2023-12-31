@@ -75,7 +75,7 @@
     Array.prototype.forEach.call(scrollStateElements, (element) => {
       element.setAttribute('data-scroll-state-scrolled', `${currentScrollPosition}`);
       element.setAttribute('data-scroll-state-has-scrolled', 'true');
-      element.setAttribute('data-scroll-state-scrolled-relative', `${currentScrollPosition / document.body.offsetHeight * 100}%`);
+      element.setAttribute('data-scroll-state-scrolled-relative', `${Math.floor(currentScrollPosition / document.body.offsetHeight * 100)}%`);
       setScrollState(element, scrollState);
     });
 
