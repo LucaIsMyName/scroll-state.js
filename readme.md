@@ -35,7 +35,6 @@ This script observes the scroll behavior of the page and provides real-time feed
    ```html
    <div data-scroll-state></div>
     ```
-3. **Customization**: (Optional) Customize the topRange and bottomRange variables within the script to adjust the thresholds for detecting the top and bottom scroll positions.
 
 ### Usage Notes
 
